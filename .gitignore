@@ -1,0 +1,17 @@
+.ezlaunchpad.yml
+
+ezplatform/bin/pdepend
+ezplatform/bin/php-cs-fixer
+ezplatform/bin/phpcbf
+ezplatform/bin/phpcpd
+ezplatform/bin/phpcs
+ezplatform/bin/phpmd
+ezplatform/bin/pscss
+
+data/metrics/*.md
+ide-twig.json
+
+ezplatform/node_modules/
+ezplatform/web/build/
+
+.idea
