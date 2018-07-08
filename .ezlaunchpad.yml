@@ -1,0 +1,7 @@
+last_update_check: 1530910679
+provisioning:
+    folder_name: provisioning
+docker:
+    compose_filename: docker-compose.yml
+    network_name: rootezplatform
+    network_prefix_port: 42

@@ -1,0 +1,23 @@
+ezpublish:
+    system:
+        site_group:
+            content_view:
+                full:
+                    ride:
+                        template: 'themes/standard/full/ride.html.twig'
+                        controller: 'AppBundle:Ride:viewRideWithLandmarks'
+                        match:
+                            Identifier\ContentType: 'ride'
+                    root_folder:
+                        template: 'themes/standard/full/root_folder.html.twig'
+                        match:
+                            Id\Location: 2
+                line:
+                    ride:
+                        template: 'themes/standard/line/ride.html.twig'
+                        match:
+                            Identifier\ContentType: 'ride'
+                    landmark:
+                        template: 'themes/standard/line/landmark.html.twig'
+                        match:
+                            Identifier\ContentType: 'landmark'

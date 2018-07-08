@@ -1,0 +1,7 @@
+{% extends "@ezdesign/layout/pagelayout.html.twig" %}
+
+{% block content %}
+    <div class="col-xs-10 col-xs-offset-1 text-justified">
+        {{ render( controller( "AppBundle:Homepage:getAllRides" ) ) }}
+    </div>
+{% endblock %}

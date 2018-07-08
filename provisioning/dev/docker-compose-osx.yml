@@ -1,0 +1,12 @@
+version: '2.1'
+services:
+    engine:
+        volumes:
+            - "nfsmount:${PROJECTMAPPINGFOLDER}"
+volumes:
+  nfsmount:
+    driver: local
+    driver_opts:
+      type: nfs
+      o: addr=host.docker.internal,lock
+      device: ":${PROJECTCOMPOSEPATH}/"

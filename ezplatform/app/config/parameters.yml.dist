@@ -1,0 +1,13 @@
+# This file is a "template" of what your parameters.yml file should look like
+parameters:
+    # A secret key that's used to generate certain security-related tokens
+    env(SYMFONY_SECRET): ThisEzPlatformTokenIsNotSoSecretChangeIt
+
+    # Settings for database backend used by Doctrine DBAL
+    # In turn used for default storage engine & default search engine (if legacy is configured as search engine)
+    env(DATABASE_DRIVER): pdo_mysql
+    env(DATABASE_HOST): localhost
+    env(DATABASE_PORT): ~
+    env(DATABASE_NAME): ezplatform
+    env(DATABASE_USER): root
+    env(DATABASE_PASSWORD):
