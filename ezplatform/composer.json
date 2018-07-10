@@ -15,7 +15,8 @@
     },
     "autoload": {
         "psr-4": {
-            "AppBundle\\": "src/AppBundle/"
+            "AppBundle\\": "src/AppBundle/",
+            "EzSystems\\ExtendingTutorialBundle\\": "src/EzSystems/ExtendingTutorialBundle/"
         },
         "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
     },

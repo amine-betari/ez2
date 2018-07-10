@@ -46,6 +46,7 @@ class AppKernel extends Kernel
             new EzSystems\EzPlatformCronBundle\EzPlatformCronBundle(),
             // Application
             new AppBundle\AppBundle(),
+            new EzSystems\ExtendingTutorialBundle\EzSystemsExtendingTutorialBundle(),
         ];
 
         switch ($this->getEnvironment()) {
